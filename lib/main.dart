@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Ma Garderie',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(colorSchemeSeed: Colors.orange, useMaterial3: true),
+      theme: ThemeData(colorSchemeSeed: const Color.fromARGB(255, 241, 233, 220), useMaterial3: true),
       home: const SplashScreen(),
     );
   }
